@@ -161,6 +161,12 @@ button {
   color: whitesmoke;
 }
 
+hr{
+  margin: 5em 0em 0em 0em;
+  padding-top: 5em 0em 0em 0em;
+}
+
+
 .copyright {
   width: 100%;
   margin: auto;
