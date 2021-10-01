@@ -108,6 +108,7 @@ a:hover{
   margin: inherit;
 
 }
+
 #portopage{
   height: 100vw; 
   vertical-align: center;
@@ -153,6 +154,11 @@ button {
   padding: 15px;
   flex:1;
   margin: 10px;
+}
+
+hr{
+  margin: 5em 0em 0em 0em;
+  padding-top: 5em 0em 0em 0em;
 }
 
 .copyright {
