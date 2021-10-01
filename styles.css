@@ -47,15 +47,7 @@ a {
 a:hover{
   color: gray;
 }
- html {
-    scroll-behavior: smooth;
-  }
   
-.list {
-  list-style-type: none;
-  padding: 10px;
-  color: whitesmoke;
-}
 .text {
   text-size-adjust: 30%;
   font-family: sans-serif;
@@ -109,7 +101,7 @@ a:hover{
 
 }
 #portopage{
-  height: 100vw; 
+  height: 50vw; 
   vertical-align: center;
  }
 
@@ -118,6 +110,12 @@ img{
   border-radius: 3em;
   box-shadow: 10px 10px 10px 10px lightskyblue;
 }
+
+hr{
+  margin: 5em 0em 0em 0em;
+  padding-top: 5em 0em 0em 0em;
+}
+
 
 figcaption{
   padding: 2em;
@@ -137,12 +135,16 @@ button {
     font-family: sans-serif;
     font-weight: bold;
     word-spacing: 1em;    
- }
+    }
   .button:hover {
     background-color: blue;
     color: white;
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }
+
+     
 .right {
   padding-left: 100px;
   padding-top: 100px;
@@ -154,18 +156,15 @@ button {
   flex:1;
   margin: 10px;
 }
-
-.homelist{
+.homelist{list-style-type: none;
+  padding: 10px;
+  color: whitesmoke;
+}
+.list {
   list-style-type: none;
   padding: 10px;
   color: whitesmoke;
 }
-
-hr{
-  margin: 5em 0em 0em 0em;
-  padding-top: 5em 0em 0em 0em;
-}
-
 
 .copyright {
   width: 100%;
